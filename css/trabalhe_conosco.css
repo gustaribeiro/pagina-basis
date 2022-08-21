@@ -1,0 +1,115 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #F4F4F4;
+}
+
+#cabecalho {
+    background-color:#121521 ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+}
+
+#cabecalho img{
+    width: 200px;
+    height: 100px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 15px;
+    font-size: 22px;
+    font-weight: 500px;
+}
+
+#equipe img{
+    width: 500px;
+}
+
+#titulo{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#subtitulo{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#equipe , img, p{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+#equipe h2, p{
+    margin-left: 50px;
+}
+#equipe img{
+    margin-right: 50px;
+}
+
+#vagas{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#estagio{
+    font-size: 22px;
+    color: #144170;
+    font-weight: 600px;
+    line-height: 22px;
+    text-align: center;
+}
+
+#requisitos{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+#quantidade{
+    font-size: 20px;
+    color: #144170;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin-top: 0%;
+    margin-bottom: 100px;
+    margin-right: 50px;
+}
+
+#rodape {
+    position: absolute;
+    margin-bottom: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #121521;
+    height: 150px;
+}
+#rodape img {
+    width: 200px;
+    height: 100px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    
+}
+#contato address {
+    color: antiquewhite;
+}

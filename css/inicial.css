@@ -1,0 +1,74 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+
+#cabecalho {
+    background-color:#121521 ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+}
+
+#cabecalho img{
+    width: 200px;
+    height: 100px;
+    margin-left: 20px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 15px;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+#container{
+    position: relative;
+}
+
+#texto{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff2f2;
+    font-size: 50px;
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 150px ;
+
+}
+
+#imagem img{
+    width: 100vw;
+    height: 100vh;
+    background: url(images/1.jpg);
+    background-size: cover;
+}
+
+
+#rodape {
+    position: absolute;
+    margin-bottom: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #121521;
+    height: 200px;
+    margin-top: 0%;
+}
+#rodape img {
+    width: 250px;
+    height: 130px;
+    margin-left: 20px;
+    
+}
+#contato address {
+    color: antiquewhite;
+}
