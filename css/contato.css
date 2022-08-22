@@ -5,7 +5,7 @@
 
 body {
     font-family:Arial, Helvetica, sans-serif;
-    background-color: #F4F4F4;
+    background-color:#F8F8F9;
 }
 
 #cabecalho {
@@ -35,11 +35,13 @@ body {
     justify-content: center;
     margin-top: 50px;
     margin-bottom: 15px;
+    color: rgb(0, 0, 0);
 }
 
 #formulario{
     display: flex;
     justify-content: center;
+    color: black;
 }
 
 #rodape{
