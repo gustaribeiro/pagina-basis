@@ -58,8 +58,6 @@ body {
 
 
 #rodape {
-    position: absolute;
-    margin-bottom: 0%;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -69,8 +67,8 @@ body {
     
 }
 #rodape img {
-    width: 250px;
-    height: 130px;
+    width: 200px;
+    height: 100px;
     margin-left: 20px;
     
 }
