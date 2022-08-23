@@ -42,17 +42,19 @@ body {
     display: flex;
     justify-content: center;
     color: black;
+    margin-bottom: 100px;
 }
 
 #rodape{
+    position: absolute;
+    bottom: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #121521;
     height: 150px;
+    width: 100%;
     margin-top: 50px;
-    margin-bottom: 0px;
-    padding-bottom: 35px;
 }
 
 #rodape img {
